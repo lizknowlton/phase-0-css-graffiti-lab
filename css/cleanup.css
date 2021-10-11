@@ -1,1 +1,44 @@
-/* write your override styles here */
+/* write your override styles here 
+TAG 1:*/
+
+#wall .tag-1 {
+    display:none;
+}
+
+/*TAG 2:*/
+
+#wall div#tag-2 {
+    display:none;
+}
+
+/*TAG 3:*/
+
+/*attribute selector slick wicked*/
+
+div#wall div#tag-3.slick {
+    display:none;
+}
+
+/*TAG 4:*/
+
+#wall .parent #tag-4 {
+  display: none;
+}
+
+/*TAG 5:*/
+
+div#wall div.parent div#tag-5.slick {
+  display: none;
+}
+
+/*TAG 6:*/
+
+div#wall div.parent ~ div div:last-child div#tag-6 {
+  display: none;
+}
+
+/*TAG 7:*/
+
+body div#wall div.parent + div div > #tag-7.slick {
+  display: none;
+}
